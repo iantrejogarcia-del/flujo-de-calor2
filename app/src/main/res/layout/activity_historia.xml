@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flujocalor.Historia"
+    android:background="#FFE0B2">
+
+
+    <ImageButton
+        android:id="@+id/btnimhist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF6347"
+        app:srcCompat="@drawable/baseline_arrow_forward_24" />
+
+    <ImageButton
+        android:id="@+id/btnimhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/baseline_home_filled_24"
+        android:backgroundTint="#FF6347"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="97dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Formula 2"
+                android:textColor="#FF6347"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="En este caso son formulas no vistas pero que van de la mano con la formula 1"
+                android:textColor="#FF6347"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="CONDUCCIÓN A TRAVÉS DE PAREDES PLANAS EN SERIE"
+                android:textColor="#FF6347"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="En estado estacionario el flujo de calor a través de todas las secciones debe ser el mismo. Sin embargo, los gradientes son distintos"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView06"
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:srcCompat="@mipmap/formula1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <ImageView
+                android:id="@+id/imageView07"
+                android:layout_width="379dp"
+                android:layout_height="235dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:srcCompat="@mipmap/paredes"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="A partir de la ecuación anterior se tienen las siguientes relaciones"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView08"
+                android:layout_width="371dp"
+                android:layout_height="151dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:srcCompat="@mipmap/form2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="sustituyendo 4.5 y 4.6 en la primera ecuación"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView09"
+                android:layout_width="370dp"
+                android:layout_height="139dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:srcCompat="@mipmap/form3"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="luego el flujo de calor será"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="356dp"
+                android:layout_height="114dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:srcCompat="@mipmap/form4"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Para un conjunto de n  paredes en perfecto contacto térmico, el flujo de calor es:"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="366dp"
+                android:layout_height="102dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:srcCompat="@mipmap/form5"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btnimreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24"
+        android:backgroundTint="#FF6347"/>
+
+</RelativeLayout>
